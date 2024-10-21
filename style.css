@@ -1,0 +1,126 @@
+body {
+    background-color: rgba(74, 187, 252, 0.527);
+    margin: 0;
+    padding: 0%;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+    text-align: center;
+    color: rgba(80, 100, 190, 0.671);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    
+}
+
+
+.container {
+    height: 460px;
+    width: 800px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 10px rgb(72, 209, 202);
+}
+
+.imagem img {
+    height: 100%;
+    width: 100%;
+}
+
+input {
+    display: none;
+}
+
+.bar {
+    background-color: rgb(255, 255, 255);
+    width: 30px;
+    height: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px black solid;
+    box-shadow: 2px 2px 2px rgb(51, 203, 223);
+}
+
+.navegacao {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%);
+}
+
+.bar:hover {
+    background-color: rgba(103, 245, 134, 0.541);
+}
+
+.imagens {
+    display: flex;
+    height: 100%;
+    width: 800%;
+}
+
+.imagem {
+    width: 12.5%;
+    transition: all 1.2s cubic-bezier(0, 0, 0, 1);
+}
+
+#imagem1:checked~.img1 {
+    margin-left: 0;
+
+}
+
+#imagem2:checked~.img1 {
+    margin-left: -12.5%;
+
+}
+
+#imagem3:checked~.img1 {
+    margin-left: -25%;
+
+}
+
+#imagem4:checked~.img1 {
+    margin-left: -37.5%;
+
+}
+
+#imagem5:checked~.img1 {
+    margin-left: -50%;
+
+}
+
+#imagem6:checked~.img1 {
+    margin-left: -62.5%;
+
+}
+
+#imagem7:checked~.img1 {
+    margin-left: -75%;
+
+}
+
+#imagem8:checked~.img1 {
+    margin-left: -87.5%;
+
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(55, 102, 163, 0.705);
+    padding: 0;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 18px;
+    margin: 0%;
+
+}
